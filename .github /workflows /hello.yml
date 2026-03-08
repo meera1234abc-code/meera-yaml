@@ -4,8 +4,7 @@ name: hello workflow
 #runs on a trigger
 on:
   push:
-    branches:
-      - main
+    branches:[main]
 
 #these are jobs inside workflow
 jobs:
@@ -17,4 +16,4 @@ jobs:
       - name: Say hello to users
         run: echo "hello dosto"
       - name: Say hello to username
-        run: echo "hello ${{ github.actor }}"
+        run: echo "hello $USER"
