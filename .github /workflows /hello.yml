@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to users
-        run: echo "hello dosto"
+        run: echo "hello Frendwa"
       - name: Say hello to username
         run: echo "hello $USER"
