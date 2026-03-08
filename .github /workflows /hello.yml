@@ -10,7 +10,7 @@ on:
 jobs:
   #this is the name of job
   greet:
-    #this is github runner,each job runs on a runner
+    #this is github runner,each job runs in a runner
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to users
