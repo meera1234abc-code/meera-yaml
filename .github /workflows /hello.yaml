@@ -1,11 +1,9 @@
 #this is workflow name
 name: hello workflow
-
 #runs on a trigger
 on:
   push:
     branches: [main]
-
 #these are jobs inside workflow
 jobs:
   #this is the name of job
